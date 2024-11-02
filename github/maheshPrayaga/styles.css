@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navi {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#home {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+.imgs {
+  border-radius: 50px;
+  width: 380px;
+  height: 500px;
+}
+
+h2 {
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 15px;
+}
+
+#greet {
+  font-size: 35px;
+  margin-bottom: -5px;
+}
+
+#name {
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+
+#darr {
+  font-size: 35px;
+  margin-bottom: 250px;
+}
+
+#about {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin-bottom: 300px;
+}
+
+h3 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+#text-box {
+  width: 600px;
+}
+
+.cards {
+  width: 450px;
+  height: 450px;
+}
+
+#projects {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+#pro {
+  margin-bottom: 80px;
+}
+
+.fa-brands {
+  font-size: 40px;
+  margin-right: 40px;
+}
+
+#contact {
+  margin-bottom: 50px;
+}
